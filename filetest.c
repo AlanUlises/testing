@@ -3,7 +3,7 @@
 
 int main(void){
 	FILE * file = fopen("values.txt", "r");
-	const char * token;
+	char * token;
 	char line[20];
 
 	while(fgets(line, 20, file)){
